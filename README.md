@@ -13,7 +13,7 @@ It stores the tasks in a queue and celery workers consume the tasks.
 The project executes two simple tasks defined in tasks.py:
 
 1. Sends an email notification to a user's email after they subscribe to receive email notifications.
-2. Sends an email daily at 12:36pm to the listed recipient email accounts.
+2. Sends an email daily at 14:30pm to the listed recipient email accounts.
 
 To run the project, clone the project, activate the virtual environment and do the following:
 

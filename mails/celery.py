@@ -20,7 +20,7 @@ app.conf.update(timezone='Africa/Nairobi')
 app.conf.beat_schedule = {
     'send-mail-daily': {
         'task': 'core.tasks.send_periodic_mails',
-        'schedule': crontab(hour='12', minute='36'),
+        'schedule': crontab(hour='14', minute='30'),
         'args': ('Omo, Do de ting!! Just do it.',)
     }
 }
