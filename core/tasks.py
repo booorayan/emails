@@ -21,7 +21,7 @@ def send_notification_mail(self, target_mail, message):
 # task to send mail periodically, i.e., daily at 12:36pm
 @shared_task(bind=True)
 def send_periodic_mails(self, message):
-    recipient_list = ['bryantlch@gmail.com', 'brian.ouma@8teq.co.ke']
+    recipient_list = ['bruhyan@gmail.com', 'booora@8teq.co.ke']
     mail_subject = 'Have A Great Day!!'
     send_mail(
         subject=mail_subject,
